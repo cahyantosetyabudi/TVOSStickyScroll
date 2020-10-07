@@ -12,6 +12,8 @@
 		798B2406252D739D00A2B58B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798B2404252D739D00A2B58B /* Main.storyboard */; };
 		798B2408252D73A100A2B58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798B2407252D73A100A2B58B /* Assets.xcassets */; };
 		798B240B252D73A100A2B58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798B2409252D73A100A2B58B /* LaunchScreen.storyboard */; };
+		798B2414252D754700A2B58B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B2412252D754700A2B58B /* CollectionViewCell.swift */; };
+		798B2415252D754700A2B58B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798B2413252D754700A2B58B /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		798B2407252D73A100A2B58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798B240A252D73A100A2B58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		798B240C252D73A100A2B58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798B2412252D754700A2B58B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		798B2413252D754700A2B58B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				798B2407252D73A100A2B58B /* Assets.xcassets */,
 				798B2409252D73A100A2B58B /* LaunchScreen.storyboard */,
 				798B240C252D73A100A2B58B /* Info.plist */,
+				798B2412252D754700A2B58B /* CollectionViewCell.swift */,
+				798B2413252D754700A2B58B /* CollectionViewCell.xib */,
 			);
 			path = TVOSStickyScrollingCollectionView;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				798B240B252D73A100A2B58B /* LaunchScreen.storyboard in Resources */,
 				798B2408252D73A100A2B58B /* Assets.xcassets in Resources */,
+				798B2415252D754700A2B58B /* CollectionViewCell.xib in Resources */,
 				798B2406252D739D00A2B58B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				798B2403252D739D00A2B58B /* ViewController.swift in Sources */,
 				798B2401252D739D00A2B58B /* AppDelegate.swift in Sources */,
+				798B2414252D754700A2B58B /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
